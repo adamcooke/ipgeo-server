@@ -14,7 +14,6 @@ module IPGeo
         if !valid_ip?(request.ip)
           json(403, {'status' => 'UnauthorizedNetwork', :ip => request.ip})
         elsif result = IPGeo::Database.lookup(env['PATH_INFO'].gsub(/\A\//, ''))
-          result = result.to_json
           json(200, result)
         else
           json(404, 'status' => 'NotFound')
