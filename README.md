@@ -32,12 +32,12 @@ You can simply make get requests to the application with the IP address in the p
 < }
 ```
 
-### Response COdes
+### Response Codes
 
 * `200 OK` - IP address was found (data in the body)
 * `404 Not Found` - the IP address was not the the database or malformed
 * `403 Unauthorized` - the request came from an unauthorized IP
 
-### Restricting Access
+### Restricting Access
 
 You may (should) restrict access access to specific networks by providing a list of network addresses in the `AUTHORIZED_NETS` environment variable.
