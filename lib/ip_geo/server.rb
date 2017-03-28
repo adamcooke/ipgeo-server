@@ -1,5 +1,6 @@
 require 'json'
 require 'ip_geo/database'
+require 'rack-custom-proxies'
 
 module IPGeo
   class Server

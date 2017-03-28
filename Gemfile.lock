@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/adamcooke/rack-custom-proxies
+  revision: 728194c2bf1b595cce73743c2ba7abed349e2df3
+  specs:
+    rack-custom-proxies (1.0.0)
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -14,6 +21,7 @@ DEPENDENCIES
   maxminddb
   puma
   rack
+  rack-custom-proxies!
 
 BUNDLED WITH
    1.14.5
