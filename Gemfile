@@ -4,3 +4,4 @@ gem 'rack'
 gem 'maxminddb'
 gem 'json'
 gem 'rack-custom-proxies', :git => "https://github.com/adamcooke/rack-custom-proxies"
+gem 'puma'
